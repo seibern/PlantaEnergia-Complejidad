@@ -1,6 +1,19 @@
 %Modelo generico
 
 %Lectura de datos
+
+% n -> # de días totales
+% s -> cantidad de clientes
+% p -> porcentaje maximo
+% ns -> cantidad de días seguidos
+% CN -> costo por kw, planta nuclear
+% CH -> costo por kw, planta hidraulica
+% CT -> costo por kw, planta termica
+% ds -> matriz formado por la cantidad de clientes y su demandas diarias
+% PN -> capacidad de produccion maxima de la planta nuclear
+% PH -> capacidad de produccion maxima de la planta hidraulica
+% PT -> capacidad de produccion maxima de la planta termica
+
 int :n;
 int :s;
 float :p;
