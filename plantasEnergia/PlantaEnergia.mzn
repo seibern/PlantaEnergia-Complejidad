@@ -27,6 +27,10 @@ float :PH;
 float :PT;
 
 %Variables:
+
+% x -> variable para la producción de la planta nuclear
+% y -> variable para la producción de la planta hidraulica
+% z -> variable para la producción de la planta termica
 array [1..n] of var float: x;
 array [1..n] of var float: y;
 array [1..n] of var float: z;
